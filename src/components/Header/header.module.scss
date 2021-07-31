@@ -1,1 +1,10 @@
 // TODO
+.container {
+    height: 150px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+    display: flex;
+    align-items: center;
+}

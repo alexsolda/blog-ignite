@@ -1,1 +1,60 @@
 // TODO
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+
+   .banner {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 50px;
+
+       img {
+           border-radius: 5px;
+           border: 2px dashed var(--highlight-color);
+       }
+   }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--head-color);
+        margin-bottom: 20px;
+    }
+
+    .infos {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 50px;
+
+        .cardInfo {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: var(--info-color);
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    .content {
+        h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--head-color);
+            margin-bottom: 40px;
+        }
+
+        .bodyContent {
+            p {
+                color: var(--body-color);
+                font-size: 1.25rem;
+                font-weight: 400;
+                text-align: justify;
+                line-height: 2;
+
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
